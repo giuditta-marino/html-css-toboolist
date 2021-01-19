@@ -1,0 +1,153 @@
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+body, html{
+  background-color: rgb(246, 248, 249);
+  font-family: 'Roboto', sans-serif;
+}
+
+.header{
+  height: 70px;
+  background-color: white;
+  }
+
+.logo-titolo{
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+.logo{
+  display: inline-block;
+}
+
+.titolo-pagina{
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 8px;
+}
+
+.container{
+  width: 70%;
+  margin: auto;
+  margin-top: 4%;
+  margin-bottom: 2%;
+}
+
+.blocco-primo{
+  height: 60px;
+  background-color: white;
+}
+
+.add-button{
+  border-radius: 7px;
+  padding: 4px 8px;
+  font-size: 10px;
+}
+
+.add-button.task{
+  background-color: rgb(71, 173, 241);
+  border: 2px solid rgb(71, 173, 241);
+  color: white;
+}
+
+.add-button.section{
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(197, 203, 208);
+  color: rgb(197, 203, 208);
+}
+
+.bottoni{
+  margin-left: 40px;
+  padding-top: 18px;
+}
+
+.blocco-secondo{
+  padding-top: 30px;
+  padding-left: 40px;
+  background-color: white;
+  height: 505px;
+  margin-top: 2px;
+}
+
+.lista-principale{
+  list-style: none;
+}
+
+.gruppi{
+margin-top: 2px;
+}
+
+.gruppi:before{
+  content: '\25be';
+}
+
+.sottolista{
+  padding-left: 0;
+  list-style: none;
+}
+
+.testi-liste-secondarie:before {
+content: '\2713';
+display: inline-block;
+color: rgb(100, 192, 169);
+border: 1px solid;
+border-radius: 50%;
+padding: 2px;
+font-size: 6px;
+width: 8px;
+text-align: center;
+vertical-align: middle;
+}
+
+.testi-liste-secondarie.x:before{
+content: ' \2717';
+color: rgb(235, 90, 83);
+}
+
+
+.testi-liste-secondarie{
+  padding-left: 0;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.testo-rettangoli{
+  display: inline-block;
+  background-color: rgb(69, 171, 234);
+  color: rgb(255, 255, 255);
+  border-radius: 15px;
+  font-size: 9px;
+  padding: 5px 9px;
+}
+
+.testo-rettangoli.editorial{
+  background-color: rgb(69, 171, 234);
+}
+
+.testo-rettangoli.q1{
+  background-color: rgb(156, 114, 228);
+}
+
+.testo-rettangoli.recruiting{
+background-color: rgb(100, 192, 169);
+}
+
+.testo-rettangoli.mobile{
+  background-color: rgb(242, 158, 51);
+}
+
+.testo-rettangoli.website{
+background-color: rgb(216, 99, 161);
+}
+
+.testo-rettangoli.sales{
+  background-color: rgb(176, 201, 38);
+}
+
+.testi-liste-secondarie.primo{
+  padding-top: 5px;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/master.css">
+    <title>Toboolist</title>
+  </head>
+  <body>
+
+    <!-- Header con logo -->
+    <div class="header">
+      <div class="logo-titolo">
+        <img class="logo" src="./assets/img/logo.png" alt="">
+        <h1 class="titolo-pagina">Toboolist</h1>
+      </div>
+    </div>
+
+    <!-- Corpo della pagina -->
+    <div class="container">
+
+      <!-- Primo blocco bianco -->
+      <div class="blocco-primo">
+        <div class="bottoni">
+          <button class="add-button task" type="button" name="add-task">Add Task</button>
+          <button class="add-button section" type="button" name="add-button section" disabled>Add Section</button>
+        </div>
+      </div>
+
+      <!-- Secondo blocco -->
+      <div class="blocco-secondo">
+
+          <!-- qui inizia New task -->
+          <ul class="lista-principale">
+            <li class="gruppi"><b>New Task</b></li>
+            <li>
+              <ul class="sottolista prima">
+                <li class="testi-liste-secondarie primo">
+                  Quarterly Newsletter
+                  <div class="testo-rettangoli editorial">
+                    Editorial
+                  </div>
+                </li>
+              </ul>
+            </li>
+
+            <!-- qui inizia Today -->
+            <li class="gruppi"><b>Today</b>
+              <ul class="sottolista seconda">
+                <li class="testi-liste-secondarie primo">
+                  Recruiting blog post
+                  <div class="testo-rettangoli editorial">
+                    Editorial
+                  </div>
+                </li>
+                <li class="testi-liste-secondarie">
+                  Mobile app launch
+                  <div class="testo-rettangoli q1">
+                    Q1 Goals
+                  </div>
+                </li>
+                <li class="testi-liste-secondarie x">
+                  Interview John H.
+                  <div class="testo-rettangoli recruiting">
+                    Recruiting
+                  </div>
+                </li>
+                <li class="testi-liste-secondarie">
+                  Summit update to mobile storefronts
+                  <div class="testo-rettangoli mobile">
+                    Mobile
+                  </div>
+                </li>
+              </ul>
+            </li>
+
+            <!-- qui inizia Upcoming -->
+            <li class="gruppi"><b>Upcoming</b></li>
+            <ul class="sottolista terza">
+              <li class="testi-liste-secondarie primo x">
+                Schedule meeting with Alex
+              </li>
+              <li class="testi-liste-secondarie">
+                Homepage refresh
+                <div class="testo-rettangoli website">
+                  Website
+                </div>
+              </li>
+              <li class="testi-liste-secondarie">
+                Onboard new Sales team members
+                <div class="testo-rettangoli sales">
+                  Sales
+                </div>
+              </li>
+              <li class="testi-liste-secondarie">
+                Review editorial calendar
+                <div class="testo-rettangoli editorial">
+                  Editorial
+                </div>
+              </li>
+            </ul>
+          </ul>
+      </div>
+    </div>
+  </body>
+</html>
